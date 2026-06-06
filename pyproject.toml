@@ -18,8 +18,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/nideshpy/jiggler-pro"
-"Bug Tracker" = "https://github.com/nideshpy/jiggler-pro/issues"
+"Homepage" = "https://github.com/nideshpandey/jiggler-pro"
+"Bug Tracker" = "https://github.com/nideshpandey/jiggler-pro/issues"
 
 [project.scripts]
 jiggler-pro = "jiggler_pro.main:run_from_cli"
