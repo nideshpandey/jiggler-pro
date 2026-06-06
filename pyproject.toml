@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jiggler-pro"
+version = "0.1.0"
+authors = [
+  { name="Nidesh Pandey", email="nideshpy@gmail.com" },
+]
+description = "A professional cross-platform zero-dependency mouse jiggler to prevent system sleep."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nideshpy/jiggler-pro"
+"Bug Tracker" = "https://github.com/nideshpy/jiggler-pro/issues"
+
+[project.scripts]
+jiggler-pro = "jiggler_pro.main:run_from_cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
